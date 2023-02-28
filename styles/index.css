@@ -1,0 +1,50 @@
+:root {
+  --color-one: orangered;
+  --color-two: #6425b6;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;  
+}
+
+.logo {
+  color: var(--color-two);
+  font-size: 18pt;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;    
+}
+
+li {
+  margin-left: 20px;
+  color: gray;
+}
+
+button { 
+  padding: 10px;
+  color: white;
+  background-color: var(--color-one);
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  margin-left: 20px;
+}
